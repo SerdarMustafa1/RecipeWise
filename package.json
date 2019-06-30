@@ -7,7 +7,7 @@
     "dev": "webpack --mode development",
     "build": "webpack --mode production",
 	"start": "webpack-dev-server --mode development --open",
-	"deploy": "gh-pages-deploy -- 'A custom commit message'"
+	"deploy": "npm run build && git subtree push --prefix dist origin gh-pages"
   },
   "author": "Serdar Mustafa",
   "license": "ISC",
@@ -28,11 +28,5 @@
     "webpack": "^4.31.0",
     "webpack-cli": "^3.3.2",
     "webpack-dev-server": "^3.4.1"
-  },
-  "gh-pages-deploy": {
-    "staticpath": "dist",
-    "post": [
-      "clean-source"
-    ]
   }
 }
