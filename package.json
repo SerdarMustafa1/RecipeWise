@@ -33,7 +33,6 @@
     "staticpath": "dist",
     "post": [
       "clean-source"
-    ],
-    "noprompt": false
-  },
+    ]
+  }
 }
