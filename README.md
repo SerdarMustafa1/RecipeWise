@@ -9,9 +9,11 @@ To use.
 
 * npm install
 
-* Register on food2fork webiste and obtain a API KEY.
+* Register on food2fork webiste and obtain a API KEY. [https://www.food2fork.com/about/api]
 
 Place key into config.js file. 
 
 
 Search for tasty food and start cooking!
+
+
